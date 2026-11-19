@@ -681,6 +681,116 @@
    "hf_commit": "51de3e31775fa999765369e5d2756342713d589b"
   },
   {
+   "id": "Sol0502_S026D1222",
+   "title": "Wildcat Ridge",
+   "variants": [
+    {
+     "key": "masked",
+     "label": "terrain only",
+     "views": {
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_enhlocal_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_range_log_360_3DTD.jpg"
+     },
+     "ground_mark": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_nadir_mark.png",
+      "depth_m": 1.9337,
+      "radius_m": 0.4433,
+      "mark_radius_m": 0.341,
+      "radius_deg": 10.0,
+      "split": 0.488,
+      "text_centre_azimuth_deg": 26.89,
+      "rover_forward_azimuth_deg": 251.89
+     }
+    },
+    {
+     "key": "rover",
+     "label": "terrain with rover (projected)",
+     "views": {
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_rover_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_rover_enhlocal_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_rover_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_rover_range_log_360_3DTD.jpg"
+     },
+     "ground_mark": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_rover_nadir_mark.png",
+      "depth_m": 1.9337,
+      "radius_m": 0.4433,
+      "mark_radius_m": 0.341,
+      "radius_deg": 10.0,
+      "split": 0.488,
+      "text_centre_azimuth_deg": 26.89,
+      "rover_forward_azimuth_deg": 251.89,
+      "at": "the terrain's level"
+     }
+    },
+    {
+     "key": "rover3d",
+     "label": "terrain with rover (3D model)",
+     "views": {
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_enhlocal_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_range_log_360_3DTD.jpg"
+     },
+     "ground_mark": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_nadir_mark.png",
+      "depth_m": 1.9337,
+      "radius_m": 0.4433,
+      "mark_radius_m": 0.341,
+      "radius_deg": 10.0,
+      "split": 0.488,
+      "text_centre_azimuth_deg": 26.89,
+      "rover_forward_azimuth_deg": 251.89
+     },
+     "rover_surface": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_rover_rover_surface.glb",
+      "triangles": 179426,
+      "experimental": true
+     }
+    },
+    {
+     "key": "terrain3d",
+     "label": "3D terrain and rover",
+     "views": {
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_enhlocal_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_range_log_360_3DTD.jpg"
+     },
+     "ground_mark": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_nadir_mark.png",
+      "depth_m": 1.9337,
+      "radius_m": 0.4433,
+      "mark_radius_m": 0.341,
+      "radius_deg": 10.0,
+      "split": 0.488,
+      "text_centre_azimuth_deg": 26.89,
+      "rover_forward_azimuth_deg": 251.89
+     },
+     "station_mesh": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/7c45df332408140f0f3ab2d0da0ba166d801a621/Sol0502_S026D1222/viewer/Sol0502_S026D1222_station_mesh.glb",
+      "triangles": 479425,
+      "move_limit_m": 1.0,
+      "experimental": true
+     }
+    }
+   ],
+   "mppp": "0.99.31",
+   "published": "2026-11-18",
+   "map": [
+    10571.3,
+    2292.6
+   ],
+   "sols": [
+    502
+   ],
+   "site_name": "Wildcat Ridge",
+   "hosted": "huggingface",
+   "hf_commit": "7c45df332408140f0f3ab2d0da0ba166d801a621"
+  },
+  {
    "id": "Sol0565_S029D0000",
    "title": "Enchanted Lake",
    "variants": [
