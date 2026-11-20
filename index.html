@@ -20,7 +20,7 @@ if (location.hostname === 'ctate7163.github.io' && (/^\/(RPP|MPPP)\/ods(\/|$)/i.
   Images: <name>_360_3DTD.jpg from `rpp ods` - square, the left eye on top of the right, each an equirectangular
   panorama whose left edge looks north with azimuth growing eastward.
   Hosted at https://ctate7163.github.io/rpv/ (the repository ctate7163/rpv; 0.98.29, lower case since 0.99.13) - a copy of this file that
-  rpp single-sites --upload installs there; this file in the pipeline's docs/ods sends visitors there.
+  rpp single-sites --upload installs there (this file is rpp/viewer/index.html of the RPP package).
   Link to one view:   https://ctate7163.github.io/rpv/#<station>/<variant>/<view>      e.g.  #Sol0052_S003D2046/rover/enhanced
   Another image list: .../rpv/?index=https://<same origin or CORS-enabled host>/panos.json
   0.99.40: the menu is the terrain - terrain stereo (the panoramas), terrain local 3D (the textured terrain within 20 m
@@ -38,7 +38,8 @@ if (location.hostname === 'ctate7163.github.io' && (/^\/(RPP|MPPP)\/ods(\/|$)/i.
   enhanced tone, dcs color, normal map, distance map),
   either grip = the rover on / off (0.99.52; 0.99.40: right grip = terrain), Y held 1 s = leave VR (0.99.52)   (0.98.13: A and X swapped)
   0.98.28: Y = home (the welcome view, facing west); on a screen the house button or H.  0.99.41: B = terrain stereo <->
-  terrain full 3D (the color skins are in both; before, B was terrain only and again the next color skin).
+  terrain full 3D (the color skins are in both; before, B was terrain only and again the next color skin).  1.0: each
+  switch shows the standard color.
   The 3D rover is set again at the eyes' center whenever the station, the variant or the view changes and when R
   shows it.
   O = straight ahead of the rover (its +x, level); the N E S W O cross is at the upper right.
@@ -720,7 +721,7 @@ const VIEWER_NAME = 'Rover Photogrammetry Viewer (RPV)';
 // 0.99.36 (Christian, 19 Nov 2026: "please put the rpp-rpv viewer version number on the lower left above the site name,
 // images size, and version on which the site was rendered"): the page's own version (the RPP release that wrote it;
 // tests/test_station_mesh.py keeps it equal to rpp.__version__), above the station's line
-const RPV_VERSION = '0.99.53';
+const RPV_VERSION = '1.0.0rc1';
 $('ver').textContent = `RPV viewer ${RPV_VERSION}`;
 const CREDIT = 'Created by Christian Tate at MSSS';   // 0.99.14 (Christian, 17 Nov 2026: 'remove the "for research purposes" phrase')
 // 0.99.39 (Christian, 19 Nov 2026: "remove the code: ... text from the welcome screen"): the credit alone, no link to
@@ -1180,11 +1181,11 @@ function goHome() {
 // B"): B (headset and keyboard) - terrain stereo <-> terrain full 3D (the local 3D where a station has no full); the
 // view is kept by its name (the color skins are in both).  Terrain only with the rover hidden was B until 0.99.40:
 // the rover button, R or the left grip hides the rover now
-function stereoOrFull() {
-  const p = panos[cur.s] || {};
-  const ms = modesOf(p).map(x => x[0]);
+function stereoOrFull() {                        // 1.0 (Christian, 20 Nov 2026: "In vr mode, the B buttons should switch
+  const p = panos[cur.s] || {};                  // between the stereo and full 3d models. Every time it switches, go to
+  const ms = modesOf(p).map(x => x[0]);          // the standard color"): headset B and the B key
   const to = mode === 'stereo' ? (ms.includes('full') ? 'full' : 'stereo') : 'stereo';
-  pick(p, to, viewName());
+  pick(p, to, 'standard');
   show();
 }
 $('home').onclick = goHome;
