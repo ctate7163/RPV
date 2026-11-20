@@ -7002,8 +7002,8 @@
     2048,
     1023
    ],
-   "stamp": "m20_ods_traverse_map_dtm.png 1795141518",
-   "background": "~70 m HiRISE+MOLA terrain tiles (no HiRISE DTM found)",
+   "stamp": "m20_ods_traverse_map_dtm.png 1794859132",
+   "background": "HiRISE DTM (JEZ_hirise_soc_006_DTM_MOLAtopography_DeltaGeoid_1m_Eqc_latTs0_lon0_blend40.tif, MSR_hirise_soc_003_DTM_MOLATopography_DeltaGeoid_1m_Eqc_latTs0_lon0_Blend40.tif) where it covers, ~70 m terrain tiles elsewhere",
    "credit": "HiRISE DTM and terrain (NASA/JPL-Caltech/UArizona/USGS)"
   }
  }
