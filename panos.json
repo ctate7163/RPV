@@ -2466,56 +2466,56 @@
    "hf_commit": "ce15f55f6a1d3b6a64d2f463f16c3f1fec9def24"
   },
   {
-   "id": "Sol0474_S026D0850",
+   "id": "Sol0474",
    "title": "Rockytop",
    "variants": [
     {
      "key": "masked",
      "label": "terrain only",
      "views": {
-      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_360_3DTD.jpg",
-      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_raw_360_3DTD.jpg",
-      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhlocal_360_3DTD.jpg",
-      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhtone_360_3DTD.jpg",
-      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_dcs_360_3DTD.jpg",
-      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_normal_360_3DTD.jpg",
-      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_range_log_360_3DTD.jpg"
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_360_3DTD.jpg",
+      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_raw_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhlocal_360_3DTD.jpg",
+      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhtone_360_3DTD.jpg",
+      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_dcs_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_range_log_360_3DTD.jpg"
      },
      "ground_mark": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_nadir_mark.png",
-      "depth_m": 2.038,
-      "radius_m": 0.4672,
-      "mark_radius_m": 0.3594,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_nadir_mark.png",
+      "depth_m": 2.0437,
+      "radius_m": 0.4685,
+      "mark_radius_m": 0.3604,
       "radius_deg": 10.0,
       "split": 0.488,
-      "text_centre_azimuth_deg": 165.68,
-      "rover_forward_azimuth_deg": 30.68
+      "text_centre_azimuth_deg": 165.65,
+      "rover_forward_azimuth_deg": 30.64
      }
     },
     {
      "key": "rover",
      "label": "terrain with rover (projected)",
      "views": {
-      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_360_3DTD.jpg",
-      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_raw_360_3DTD.jpg",
-      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_enhlocal_360_3DTD.jpg",
-      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_enhtone_360_3DTD.jpg",
-      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_dcs_360_3DTD.jpg",
-      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_normal_360_3DTD.jpg",
-      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_range_log_360_3DTD.jpg"
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_360_3DTD.jpg",
+      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_raw_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_enhlocal_360_3DTD.jpg",
+      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_enhtone_360_3DTD.jpg",
+      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_dcs_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_range_log_360_3DTD.jpg"
      },
      "center": {
-      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_360_center.jpg"
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_360_center.jpg"
      },
      "ground_mark": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_nadir_mark.png",
-      "depth_m": 2.038,
-      "radius_m": 0.4672,
-      "mark_radius_m": 0.3594,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_nadir_mark.png",
+      "depth_m": 2.0437,
+      "radius_m": 0.4685,
+      "mark_radius_m": 0.3604,
       "radius_deg": 10.0,
       "split": 0.488,
-      "text_centre_azimuth_deg": 165.68,
-      "rover_forward_azimuth_deg": 30.68,
+      "text_centre_azimuth_deg": 165.65,
+      "rover_forward_azimuth_deg": 30.64,
       "at": "the terrain's level"
      }
     },
@@ -2523,26 +2523,26 @@
      "key": "rover3d",
      "label": "terrain with rover (3D model)",
      "views": {
-      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_360_3DTD.jpg",
-      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_raw_360_3DTD.jpg",
-      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhlocal_360_3DTD.jpg",
-      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhtone_360_3DTD.jpg",
-      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_dcs_360_3DTD.jpg",
-      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_normal_360_3DTD.jpg",
-      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_range_log_360_3DTD.jpg"
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_360_3DTD.jpg",
+      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_raw_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhlocal_360_3DTD.jpg",
+      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhtone_360_3DTD.jpg",
+      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_dcs_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_range_log_360_3DTD.jpg"
      },
      "ground_mark": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_nadir_mark.png",
-      "depth_m": 2.038,
-      "radius_m": 0.4672,
-      "mark_radius_m": 0.3594,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_nadir_mark.png",
+      "depth_m": 2.0437,
+      "radius_m": 0.4685,
+      "mark_radius_m": 0.3604,
       "radius_deg": 10.0,
       "split": 0.488,
-      "text_centre_azimuth_deg": 165.68,
-      "rover_forward_azimuth_deg": 30.68
+      "text_centre_azimuth_deg": 165.65,
+      "rover_forward_azimuth_deg": 30.64
      },
      "rover_surface": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_rover_rover_surface.glb",
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_rover_surface.glb",
       "triangles": 179426,
       "experimental": true
      }
@@ -2551,32 +2551,37 @@
      "key": "terrain3d",
      "label": "3D terrain and rover",
      "views": {
-      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_360_3DTD.jpg",
-      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_raw_360_3DTD.jpg",
-      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhlocal_360_3DTD.jpg",
-      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhtone_360_3DTD.jpg",
-      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_dcs_360_3DTD.jpg",
-      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_normal_360_3DTD.jpg",
-      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_range_log_360_3DTD.jpg"
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_360_3DTD.jpg",
+      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_raw_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhlocal_360_3DTD.jpg",
+      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhtone_360_3DTD.jpg",
+      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_dcs_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_range_log_360_3DTD.jpg"
      },
      "ground_mark": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_nadir_mark.png",
-      "depth_m": 2.038,
-      "radius_m": 0.4672,
-      "mark_radius_m": 0.3594,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_nadir_mark.png",
+      "depth_m": 2.0437,
+      "radius_m": 0.4685,
+      "mark_radius_m": 0.3604,
       "radius_deg": 10.0,
       "split": 0.488,
-      "text_centre_azimuth_deg": 165.68,
-      "rover_forward_azimuth_deg": 30.68
+      "text_centre_azimuth_deg": 165.65,
+      "rover_forward_azimuth_deg": 30.64
      },
      "station_mesh": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_station_mesh.glb",
-      "triangles": 479426,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_mesh.glb",
+      "triangles": 679426,
       "move_limit_m": 1.0,
       "fade_m": [
-       8.0,
-       10.0
+       18.0,
+       20.0
       ],
+      "experimental": true
+     },
+     "rover_surface": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_rover_surface.glb",
+      "triangles": 179426,
       "experimental": true
      }
     },
@@ -2584,31 +2589,31 @@
      "key": "scape3d",
      "label": "3D terrain to the horizon and rover",
      "views": {
-      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_360_3DTD.jpg",
-      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_raw_360_3DTD.jpg",
-      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhlocal_360_3DTD.jpg",
-      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhtone_360_3DTD.jpg",
-      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_dcs_360_3DTD.jpg",
-      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_normal_360_3DTD.jpg",
-      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_range_log_360_3DTD.jpg"
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_360_3DTD.jpg",
+      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_raw_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhlocal_360_3DTD.jpg",
+      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhtone_360_3DTD.jpg",
+      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_dcs_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_range_log_360_3DTD.jpg"
      },
      "ground_mark": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_nadir_mark.png",
-      "depth_m": 2.038,
-      "radius_m": 0.4672,
-      "mark_radius_m": 0.3594,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_nadir_mark.png",
+      "depth_m": 2.0437,
+      "radius_m": 0.4685,
+      "mark_radius_m": 0.3604,
       "radius_deg": 10.0,
       "split": 0.488,
-      "text_centre_azimuth_deg": 165.68,
-      "rover_forward_azimuth_deg": 30.68
+      "text_centre_azimuth_deg": 165.65,
+      "rover_forward_azimuth_deg": 30.64
      },
      "station_mesh": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_station_scape.glb",
-      "triangles": 716032,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape.glb",
+      "triangles": 849664,
       "move_limit_m": 1.0,
       "fade_m": [
-       8.0,
-       10.0
+       18.0,
+       20.0
       ],
       "dome_m": 3000.0,
       "whole": true,
@@ -2616,38 +2621,49 @@
       "parts": [
        "terrain",
        "rover"
-      ]
+      ],
+      "skins": {
+       "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape_terrain_enhlocal.jpg",
+       "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape_terrain_enhtone.jpg",
+       "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape_terrain_raw.jpg",
+       "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape_terrain_dcs.jpg"
+      }
+     },
+     "rover_surface": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_rover_surface.glb",
+      "triangles": 179426,
+      "experimental": true
      }
     },
     {
      "key": "drive3d",
      "label": "Drive the rover (simulation)",
      "views": {
-      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_360_3DTD.jpg",
-      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_raw_360_3DTD.jpg",
-      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhlocal_360_3DTD.jpg",
-      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_enhtone_360_3DTD.jpg",
-      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_dcs_360_3DTD.jpg",
-      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_normal_360_3DTD.jpg",
-      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_range_log_360_3DTD.jpg"
+      "standard": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_360_3DTD.jpg",
+      "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_raw_360_3DTD.jpg",
+      "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhlocal_360_3DTD.jpg",
+      "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_enhtone_360_3DTD.jpg",
+      "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_dcs_360_3DTD.jpg",
+      "normal map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_normal_360_3DTD.jpg",
+      "distance map": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_range_log_360_3DTD.jpg"
      },
      "ground_mark": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_nadir_mark.png",
-      "depth_m": 2.038,
-      "radius_m": 0.4672,
-      "mark_radius_m": 0.3594,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_nadir_mark.png",
+      "depth_m": 2.0437,
+      "radius_m": 0.4685,
+      "mark_radius_m": 0.3604,
       "radius_deg": 10.0,
       "split": 0.488,
-      "text_centre_azimuth_deg": 165.68,
-      "rover_forward_azimuth_deg": 30.68
+      "text_centre_azimuth_deg": 165.65,
+      "rover_forward_azimuth_deg": 30.64
      },
      "station_mesh": {
-      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/c1000b111427d2b8632eb0eb91b710b474f6eda8/Sol0474_S026D0850/viewer/Sol0474_S026D0850_station_scape.glb",
-      "triangles": 716032,
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape.glb",
+      "triangles": 849664,
       "move_limit_m": 1.0,
       "fade_m": [
-       8.0,
-       10.0
+       18.0,
+       20.0
       ],
       "dome_m": 3000.0,
       "whole": true,
@@ -2656,6 +2672,12 @@
        "terrain",
        "rover"
       ],
+      "skins": {
+       "enhanced local": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape_terrain_enhlocal.jpg",
+       "enhanced tone": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape_terrain_enhtone.jpg",
+       "raw color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape_terrain_raw.jpg",
+       "dcs color": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_station_scape_terrain_dcs.jpg"
+      },
       "drive": {
        "track_m": 2.3,
        "wheels_fwd_m": [
@@ -2664,28 +2686,34 @@
         -1.07
        ],
        "speed_m_s": 0.25,
-       "limit_m": 6.0,
+       "limit_m": 15.0,
        "pivot_fwd_right_m": [
         0.8012,
         0.5569
        ]
       }
+     },
+     "rover_surface": {
+      "file": "https://huggingface.co/datasets/ctate7163/rpp-rpv/resolve/99ce8143e02e75452f06d062f7917afb448792c8/Sol0474/viewer/Sol0474_rover_rover_surface.glb",
+      "triangles": 179426,
+      "experimental": true
      }
     }
    ],
-   "mppp": "0.99.37",
-   "rpp": "0.99.37",
-   "published": "2026-11-19",
+   "mppp": "1.0.0rc1",
+   "rpp": "1.0.0rc1",
+   "author": "Christian Tate",
+   "published": "2026-11-20",
    "site_name": "Rockytop",
+   "sols": [
+    474
+   ],
    "map": [
     10581.1,
     2305.0
    ],
-   "sols": [
-    474
-   ],
    "hosted": "huggingface",
-   "hf_commit": "c1000b111427d2b8632eb0eb91b710b474f6eda8"
+   "hf_commit": "99ce8143e02e75452f06d062f7917afb448792c8"
   },
   {
    "id": "Sol0477_S026D1004",
